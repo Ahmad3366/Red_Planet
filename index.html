@@ -93,11 +93,12 @@
     <div class="circle2"></div>
     <div class="circle3"></div>
     <script>
+    try{
         window.onload = function (){
             setTimeout(function(){
                 document.getElementById("ad").play();
 },4000)
-}
+}}catch(err){alert(err.message)}
 </script>
 </body>
 </html>
