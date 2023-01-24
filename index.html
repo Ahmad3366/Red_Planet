@@ -87,11 +87,17 @@
     </style>
 </head>
 <body>
-     <audio src="./Aakash Gandhi  Falling Snow.mp3" autoplay="autoplay"></audio>
+     <audio id="ad" src="./Aakash Gandhi  Falling Snow.mp3" autoplay="autoplay"></audio>
     <div class="sun"></div>
     <div class="circle"></div>
     <div class="circle2"></div>
     <div class="circle3"></div>
-
+    <script>
+        window.onload = function (){
+            setTimeout(function(){
+                document.getElementById("ad").play();
+},4000)
+}
+</script>
 </body>
 </html>
